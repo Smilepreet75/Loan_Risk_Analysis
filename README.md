@@ -72,7 +72,48 @@ after-the-loan fields, and deep credit-bureau variables redundant with simpler k
 9. **Sanity check** — avg `Interest_Rate` by `Grade` increases smoothly A (7.1%) → G (28.1%);
    `Loan_Status` counts total exactly 15,000 with a realistic distribution
 
-Final file: 15,000 rows × 31 columns, saved as `.xlsx`.
+# SQL Analysis — Bank Loan Risk Project
+
+Queries stored in `SQL/` folder. Each answers one business question by calculating
+default rate (`Loan_Status = 'Charged Off'`) across buckets/categories, using
+`data_for_sql` (cleaned 15,000-row sample).
+
+## Questions & Findings
+
+| # | Question | Finding |
+|---|---|---|
+| 1 | Overall loan status distribution? | 46% Fully Paid, 41% Current, 12% Charged Off |
+| 2 | Total loan volume / avg loan amount? | $226.2M total, $15,081 average |
+| 3 | Does Grade (A–G) predict default? | Yes — smooth increase, 3.3% (A) → 41.4% (G) |
+| 4 | Does DTI affect default? | Yes — default rises as DTI increases |
+| 5 | Does Income affect default? | Yes — 14.6% (Low) → 9.2% (High) |
+| 6 | Does Employment Length affect default? | No clear pattern (10.5–13.6% range) |
+| 7 | Does Income Verification affect default? | Yes, inverted — Verified (15.2%) > Not Verified (7.7%) |
+| 8 | Does Loan Purpose affect default? | Varies 6%–20%+; some categories too small to trust |
+| 9 | Does Loan Amount affect default? | No clear pattern (10.3–12.7% range) |
+| 10 | Does Term (36 vs 60 mo) affect default? | Yes — 60mo (16.0%) vs 36mo (9.9%) |
+| 11 | Does Home Ownership affect default? | Yes — Rent (13.1%) > Own (11.2%) > Mortgage (10.6%) |
+| 12 | Does Open_Accounts affect default? | No clear pattern (11.0–12.3% range) |
+| 13 | Does Revolving Utilization affect default? | Yes — 8.7% (Low) → 13.8% (High) |
+| 14 | Do past Delinquencies affect default? | Yes — 11.3% (0) → 16.2% (3+) |
+| 15 | Do recent Inquiries affect default? | Yes, strongly — 9.4% (0) → 23.9% (5+) |
+| 16 | Which states have highest/lowest default rate? | WA lowest (6.9%), NC highest (14.6%) among reliable states — map visual recommended |
+| 17 | Which states have highest loan volume? | CA ($31.5M) > TX > NY > FL > IL |
+| 18 | Does Mortgage_Accounts affect default? | Yes — 0 mortgages (12.8%) > 1–7 mortgages (~10–12%) |
+| 19 | Does Credit History Length affect default? | Yes — 13.4% (Low) → 10.1% (High) |
+| 20 | Does Interest Rate affect default? | Yes, strongest signal — 6.0% (Low) → 23.6% (High) |
+| 21 | (Bonus) How much is actually lost on Charged Off loans? | ~40% net loss ($10.7M of $26.8M) — 60% recovered via payments + collections |
+
+## Summary
+
+**Strong signals**: Grade, Interest Rate, DTI, Income, Term, Home Ownership,
+Verification Status, Revolving Utilization, Delinquencies, Inquiries, Credit History
+Length, Mortgage Accounts, State (large-sample states)
+
+**Weak / no signal**: Employment Length, Loan Amount, Open Accounts
+
+**Caution — small sample size**: some Purpose categories, Home Ownership (Any/Other),
+low-volume states
 
 ## Note
 This dataset contains only **issued (approved)** loans — no rejected applications —
