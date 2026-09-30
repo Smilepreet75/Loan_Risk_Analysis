@@ -104,6 +104,8 @@ default rate (`Loan_Status = 'Charged Off'`) across buckets/categories, using
 | 20 | Does Interest Rate affect default? | Yes, strongest signal — 6.0% (Low) → 23.6% (High) |
 | 21 | (Bonus) How much is actually lost on Charged Off loans? | ~40% net loss ($10.7M of $26.8M) — 60% recovered via payments + collections |
 
+## Dashboard with Power BI (In Progress)
+
 ## Summary
 
 **Strong signals**: Grade, Interest Rate, DTI, Income, Term, Home Ownership,
