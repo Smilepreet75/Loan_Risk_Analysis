@@ -1,0 +1,1 @@
+select sum(Loan_Amount) as Total_Loan_Amount_USD, AVG(Loan_Amount) as AVG_Loan_Amount_USD from data_for_sql

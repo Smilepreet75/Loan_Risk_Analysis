@@ -1,0 +1,5 @@
+SELECT DISTINCT
+    PERCENTILE_CONT(0.33) WITHIN GROUP (ORDER BY Annual_Income) OVER() AS P33,
+    PERCENTILE_CONT(0.67) WITHIN GROUP (ORDER BY Annual_Income) OVER() AS P67
+FROM data_for_sql
+WHERE Application_Type = 'Individual';

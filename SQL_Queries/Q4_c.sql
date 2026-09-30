@@ -1,0 +1,1 @@
+select distinct Verification_Status, sum(case when Loan_Status = 'Charged Off' then 1 end) *100.0/ count(*) as Defalut_Rate from data_for_sql group by Verification_Status 

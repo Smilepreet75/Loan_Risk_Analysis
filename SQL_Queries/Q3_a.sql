@@ -1,0 +1,1 @@
+select Loan_Status , AVG(Debt_Income_Ratio) as AVG_Debt_Ratio from data_for_sql group by Loan_Status order by Loan_Status asc;

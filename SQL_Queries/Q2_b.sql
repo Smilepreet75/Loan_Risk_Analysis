@@ -1,0 +1,1 @@
+select Grade, AVG(Interest_Rate) as Interest_Rate from data_for_sql group by Grade Order by Grade

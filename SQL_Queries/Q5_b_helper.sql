@@ -1,0 +1,2 @@
+select distinct PERCENTILE_CONT(0.33) within group(order by Loan_Amount) over() as Loan_Percentile33,
+                PERCENTILE_CONT(0.67) within group(order by Loan_Amount) over() as Loan_Percentile66 from data_for_sql

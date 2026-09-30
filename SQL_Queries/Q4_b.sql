@@ -1,0 +1,1 @@
+select distinct Employment_Length_Years, sum(case when Loan_Status = 'Charged Off' then 1 end) *100.0 / count(*) as Default_Ratio from data_for_sql group by Employment_Length_Years order by Employment_Length_Years
