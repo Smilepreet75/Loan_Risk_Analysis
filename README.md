@@ -106,6 +106,112 @@ default rate (`Loan_Status = 'Charged Off'`) across buckets/categories, using
 
 ## Dashboard with Power BI (In Progress)
 
+Page 1 — Overview Bank Loan Analysis
+
+Provides a high-level summary of loan portfolio performance and default trends.
+
+Key KPIs
+
+Total Loans: 15K
+Overall Default Rate: 11.66%
+Average Loan Amount: $15.08K
+Total Loan Volume: $226M
+
+Visualizations
+
+Default Rate by Grade (A–G)
+Loan Status Distribution
+Default Rate by Interest Rate
+
+Business Insights
+
+Default rates increase significantly from lower-risk grades to higher-risk grades.
+Grade G has the highest observed default rate (41.41%), compared with 3.34% for Grade A.
+Higher interest-rate categories exhibit higher default rates, highlighting the relationship between loan pricing and borrower risk.
+
+Here the Screenshort of page 1
+
+<img width="1920" height="1017" alt="Screenshot (214)" src="https://github.com/user-attachments/assets/5922cd9d-25bc-4c34-bd92-3c6cdcba6fe4" />
+
+Page 2 — Borrower Risk Profile
+
+Examines how borrower financial characteristics and verification status relate to default risk.
+
+Key KPIs
+
+Overall Default Rate: 11.66%
+Average Debt-to-Income Ratio: 18.72
+Average Annual Income: $78.14K
+Income Verified: 67.75%
+
+Visualizations
+
+Default Rate by Debt-to-Income Ratio
+Default Rate by Verification Status and Income
+Risk Drivers Explorer using a decomposition tree
+
+Business Insights
+
+Default rates generally increase across higher debt-to-income ratio categories.
+Income verification status shows differences in observed default rates.
+The decomposition tree enables interactive exploration of default rates across home ownership, credit utilization, and loan grade.
+
+Here the Screenshort of Page 2
+<img width="1920" height="1014" alt="Screenshot (215)" src="https://github.com/user-attachments/assets/03b1c842-c725-4c76-a6aa-712e4c81bbd5" />
+
+Page 3 — Credit Behaviour & Loan Structure
+
+Analyzes the relationship between borrowers' credit history, previous delinquencies, recent credit inquiries, loan purpose, and loan term.
+
+Key KPIs
+
+Default Rate: 11.66%
+Average Past Delinquencies: 0.31
+
+Visualizations
+
+Default Rate by Loan Purpose and Term
+Default Rate by Credit History and Mortgages
+Default Rate by Past Delinquencies
+Default Rate by Recent Inquiries
+
+Business Insights
+
+Borrowers with multiple past delinquencies tend to have higher default rates.
+Recent credit inquiries are associated with differences in default risk.
+Comparing loan terms and purposes helps identify segments that may require closer risk assessment.
+
+Here the Screenshort of Page 3
+<img width="1920" height="1024" alt="Screenshot (216)" src="https://github.com/user-attachments/assets/680d4dbe-cc1c-42a6-9216-c0e90e8222f1" />
+
+Page 4 — Geography & Financial Impact
+
+Combines geographic risk analysis with a financial recovery assessment of charged-off loans.
+
+Key KPIs
+
+Overall Default Rate: 11.66%
+States Covered: 50
+Net Amount Lost: $10.75M
+Recovered on Defaults: 79.56%
+
+Visualizations
+
+Default Risk by State — geographic map
+Charged-Off Loan Recovery Breakdown — waterfall chart
+Highest Risk State
+Lowest Risk State
+
+Business Insights
+
+North Carolina (NC) has the highest observed state default rate at 14.6%, while Washington (WA) has the lowest at 6.9% among the states identified in the analysis.
+The waterfall chart breaks down charged-off loan amounts, collection recovery fees, payments received before default, and recoveries.
+The net amount lost KPI highlights the remaining financial exposure after accounting for payments and recoveries.
+The recovery percentage provides an additional view of how much of the charged-off loan amount has been offset by payments and collections.
+
+Here the Screenshort of Page 4
+<img width="1920" height="1021" alt="Screenshot (217)" src="https://github.com/user-attachments/assets/c9406c0c-6bf5-4129-b5db-7174673f93ec" />
+
 ## Summary
 
 **Strong signals**: Grade, Interest Rate, DTI, Income, Term, Home Ownership,
