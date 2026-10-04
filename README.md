@@ -112,22 +112,22 @@ Provides a high-level summary of loan portfolio performance and default trends.
 
 Key KPIs
 
-Total Loans: 15K
-Overall Default Rate: 11.66%
-Average Loan Amount: $15.08K
-Total Loan Volume: $226M
+- Total Loans: 15K
+- Overall Default Rate: 11.66%
+- Average Loan Amount: $15.08K
+- Total Loan Volume: $226M
 
 Visualizations
 
-Default Rate by Grade (A–G)
-Loan Status Distribution
-Default Rate by Interest Rate
+- Default Rate by Grade (A–G)
+- Loan Status Distribution
+- Default Rate by Interest Rate
 
 Business Insights
 
-Default rates increase significantly from lower-risk grades to higher-risk grades.
-Grade G has the highest observed default rate (41.41%), compared with 3.34% for Grade A.
-Higher interest-rate categories exhibit higher default rates, highlighting the relationship between loan pricing and borrower risk.
+- Default rates increase significantly from lower-risk grades to higher-risk grades.
+- Grade G has the highest observed default rate (41.41%), compared with 3.34% for Grade A.
+- Higher interest-rate categories exhibit higher default rates, highlighting the relationship between loan pricing and borrower risk.
 
 Here the Screenshort of page 1
 
@@ -139,22 +139,22 @@ Examines how borrower financial characteristics and verification status relate t
 
 Key KPIs
 
-Overall Default Rate: 11.66%
-Average Debt-to-Income Ratio: 18.72
-Average Annual Income: $78.14K
-Income Verified: 67.75%
+- Overall Default Rate: 11.66%
+- Average Debt-to-Income Ratio: 18.72
+- Average Annual Income: $78.14K
+- Income Verified: 67.75%
 
 Visualizations
 
-Default Rate by Debt-to-Income Ratio
-Default Rate by Verification Status and Income
-Risk Drivers Explorer using a decomposition tree
+- Default Rate by Debt-to-Income Ratio
+- Default Rate by Verification Status and Income
+- Risk Drivers Explorer using a decomposition tree
 
 Business Insights
 
-Default rates generally increase across higher debt-to-income ratio categories.
-Income verification status shows differences in observed default rates.
-The decomposition tree enables interactive exploration of default rates across home ownership, credit utilization, and loan grade.
+- Default rates generally increase across higher debt-to-income ratio categories.
+- Income verification status shows differences in observed default rates.
+- The decomposition tree enables interactive exploration of default rates across home ownership, credit utilization, and loan grade.
 
 Here the Screenshort of Page 2
 <img width="1920" height="1014" alt="Screenshot (215)" src="https://github.com/user-attachments/assets/03b1c842-c725-4c76-a6aa-712e4c81bbd5" />
@@ -165,21 +165,21 @@ Analyzes the relationship between borrowers' credit history, previous delinquenc
 
 Key KPIs
 
-Default Rate: 11.66%
-Average Past Delinquencies: 0.31
+- Default Rate: 11.66%
+- Average Past Delinquencies: 0.31
 
 Visualizations
 
-Default Rate by Loan Purpose and Term
-Default Rate by Credit History and Mortgages
-Default Rate by Past Delinquencies
-Default Rate by Recent Inquiries
+- Default Rate by Loan Purpose and Term
+- Default Rate by Credit History and Mortgages
+- Default Rate by Past Delinquencies
+- Default Rate by Recent Inquiries
 
 Business Insights
 
-Borrowers with multiple past delinquencies tend to have higher default rates.
-Recent credit inquiries are associated with differences in default risk.
-Comparing loan terms and purposes helps identify segments that may require closer risk assessment.
+- Borrowers with multiple past delinquencies tend to have higher default rates.
+- Recent credit inquiries are associated with differences in default risk.
+- Comparing loan terms and purposes helps identify segments that may require closer risk assessment.
 
 Here the Screenshort of Page 3
 <img width="1920" height="1024" alt="Screenshot (216)" src="https://github.com/user-attachments/assets/680d4dbe-cc1c-42a6-9216-c0e90e8222f1" />
@@ -190,24 +190,24 @@ Combines geographic risk analysis with a financial recovery assessment of charge
 
 Key KPIs
 
-Overall Default Rate: 11.66%
-States Covered: 50
-Net Amount Lost: $10.75M
-Recovered on Defaults: 79.56%
+- Overall Default Rate: 11.66%
+- States Covered: 50
+- Net Amount Lost: $10.75M
+- Recovered on Defaults: 79.56%
 
 Visualizations
 
-Default Risk by State — geographic map
-Charged-Off Loan Recovery Breakdown — waterfall chart
-Highest Risk State
-Lowest Risk State
+- Default Risk by State — geographic map
+- Charged-Off Loan Recovery Breakdown — waterfall chart
+- Highest Risk State
+- Lowest Risk State
 
 Business Insights
 
-North Carolina (NC) has the highest observed state default rate at 14.6%, while Washington (WA) has the lowest at 6.9% among the states identified in the analysis.
-The waterfall chart breaks down charged-off loan amounts, collection recovery fees, payments received before default, and recoveries.
-The net amount lost KPI highlights the remaining financial exposure after accounting for payments and recoveries.
-The recovery percentage provides an additional view of how much of the charged-off loan amount has been offset by payments and collections.
+- North Carolina (NC) has the highest observed state default rate at 14.6%, while Washington (WA) has the lowest at 6.9% among the states identified in the  analysis.
+- The waterfall chart breaks down charged-off loan amounts, collection recovery fees, payments received before default, and recoveries.
+- The net amount lost KPI highlights the remaining financial exposure after accounting for payments and recoveries.
+- The recovery percentage provides an additional view of how much of the charged-off loan amount has been offset by payments and collections.
 
 Here the Screenshort of Page 4
 <img width="1920" height="1021" alt="Screenshot (217)" src="https://github.com/user-attachments/assets/c9406c0c-6bf5-4129-b5db-7174673f93ec" />
