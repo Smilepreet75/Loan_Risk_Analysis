@@ -157,6 +157,7 @@ Business Insights
 - The decomposition tree enables interactive exploration of default rates across home ownership, credit utilization, and loan grade.
 
 Here the Screenshort of Page 2
+
 <img width="1920" height="1014" alt="Screenshot (215)" src="https://github.com/user-attachments/assets/03b1c842-c725-4c76-a6aa-712e4c81bbd5" />
 
 Page 3 — Credit Behaviour & Loan Structure
@@ -182,6 +183,7 @@ Business Insights
 - Comparing loan terms and purposes helps identify segments that may require closer risk assessment.
 
 Here the Screenshort of Page 3
+
 <img width="1920" height="1024" alt="Screenshot (216)" src="https://github.com/user-attachments/assets/680d4dbe-cc1c-42a6-9216-c0e90e8222f1" />
 
 Page 4 — Geography & Financial Impact
@@ -210,6 +212,7 @@ Business Insights
 - The recovery percentage provides an additional view of how much of the charged-off loan amount has been offset by payments and collections.
 
 Here the Screenshort of Page 4
+
 <img width="1920" height="1021" alt="Screenshot (217)" src="https://github.com/user-attachments/assets/c9406c0c-6bf5-4129-b5db-7174673f93ec" />
 
 ## Summary
